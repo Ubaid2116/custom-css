@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+.servicesSection {
+  padding: 80px 40px;
+  background: linear-gradient(135deg, #f7fafc, #e2e8f0);
+  color: #1a202c;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.servicesSection:hover {
+  transform: translateY(-5px);
+}
+
+.servicesContent {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.servicesTitle {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #2b6cb0;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.servicesText {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #4a5568;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+.servicesCards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.serviceCard {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+  min-width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.serviceCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  font-size: 3rem;
+  color: #2b6cb0;
+  margin-bottom: 20px;
+}
+
+.serviceTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 15px;
+}
+
+.serviceText {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #718096;
+  line-height: 1.6;
+}
